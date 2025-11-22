@@ -1,7 +1,6 @@
 import pymysql
 
 conn = pymysql.connect(
-    host='127.0.0.1',   # MySQL 컨테이너 포트로 연결
     user='flaskuser',
     password='flaskpass',
     database='testdb',
